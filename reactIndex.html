@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>React Static Html</title>
+
+        <!--create link to the react_index.css file-->
+        <!--            <link rel ="stylesheet" href="react_index.css">-->
+        <meta name="React Static Html" content="React Static Html"/>
+
+        <!--        import React/React-DOM into a project with CDN Links -->
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+        <!--Provide JSX babel script compile jsx in the project-->
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    </head>
+    <body>
+        <!-- this div will allow the element with the element id="root" from react_index.js; to be rendered -->
+        <div id="root"></div>
+
+        <!--Provide JSX babel compiling functionality to the script tag by adding type = text/babel -->
+        <script src="./components/react_index.jsx" type="text/babel"></script>
+    </body>
+</html>
